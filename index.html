@@ -88,46 +88,69 @@
 
 
 <!--MODAL-->
-<div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+<div style = "display": "flex", class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
 aria-hidden="true">
 <div class="modal-dialog" role="document">
   <div class="modal-content">
-    <div class="modal-header text-center">
-      <h4 class="modal-title w-100 font-weight-bold">Contact me</h4>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
+    
+
+    <div class="w3-container" id="contact" >
+      <h1 class="w3-xxxlarge w3-text-red"><b>Contact</b></h1>
+      <hr style="width: 50px; border: 5px solid red" class="w3-round" />
+      <p>
+        Would you like to hire a passionate and driven web-developer? Fill out the form and fill me in with the details :)
+      </p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input
+            class="w3-input w3-border"
+            type="text"
+            name="Name"
+            required
+          />
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input
+            class="w3-input w3-border"
+            type="text"
+            name="Email"
+            required
+          />
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input
+            class="w3-input w3-border"
+            type="text"
+            name="Message"
+            required
+          />
+        </div>
+        <div class="w3-xlarge w3-padding-32" style = "text-align: center", "border-radius:50px">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+       </div>
+        <button
+          type="submit"
+          class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom"
+        >
+          Send Message
+        </button>
+      </form>
     </div>
-    <div class="modal-body mx-3">
-      <div class="md-form mb-5">
-        <i class="fas fa-user prefix grey-text"></i>
-        <input type="text" id="form34" class="form-control validate">
-        <label data-error="wrong" data-success="right" for="form34">Your name</label>
-      </div>
-
-      <div class="md-form mb-5">
-        <i class="fas fa-envelope prefix grey-text"></i>
-        <input type="email" id="form29" class="form-control validate">
-        <label data-error="wrong" data-success="right" for="form29">Your email</label>
-      </div>
-
-      
-
-      <div class="md-form">
-        <i class="fas fa-pencil prefix grey-text"></i>
-        <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
-        <label data-error="wrong" data-success="right" for="form8">Your message</label>
-      </div>
-
-    </div>
-    <div class="modal-footer d-flex justify-content-center">
-      <button class="btn btn-unique">Send <i class="fas fa-paper-plane-o ml-1 btn-danger"></i></button>
-    </div>
+    
   </div>
 </div>
 </div>
+<!-- first Grid -->
 
- 
+
 
 
 
@@ -135,7 +158,8 @@ aria-hidden="true">
 
 
     <!-- Languages -->
-    <div class="w3-container w3-light-grey w3-row-padding " id="languages" style="margin-top: 75px">
+    <div class="w3-container w3-light-grey w3-row-padding " id="languages" >
+   
         <h1 class="w3-xxxlarge w3-text-red"><b>Languages</b></h1>
         <hr style="width: 50px; border: 5px solid red" class="w3-round" />
         <div class="w3-row-padding w3-center w3-margin-top">
@@ -168,8 +192,6 @@ aria-hidden="true">
       </div>
 
     
-    <!-- first Grid -->
-
       <div class="w3-row-padding w3-padding-64 w3-container">
         <div class="w3-content">
           <div class="w3-twothird">
@@ -224,61 +246,24 @@ aria-hidden="true">
           </p>
         </div>
       </div>
+     
     </div>
 
+    
+    
+    
+   
 
-    <!-- Footer -->
-    <div class="w3-container" id="contact" style="margin-top: 75px">
-        <h1 class="w3-xxxlarge w3-text-red"><b>Contact</b></h1>
-        <hr style="width: 50px; border: 5px solid red" class="w3-round" />
-        <p>
-          Would you like to hire a passionate and driven web-developer? Fill out the form and fill me in with the details :)
-        </p>
-        <form action="/action_page.php" target="_blank">
-          <div class="w3-section">
-            <label>Name</label>
-            <input
-              class="w3-input w3-border"
-              type="text"
-              name="Name"
-              required
-            />
-          </div>
-          <div class="w3-section">
-            <label>Email</label>
-            <input
-              class="w3-input w3-border"
-              type="text"
-              name="Email"
-              required
-            />
-          </div>
-          <div class="w3-section">
-            <label>Message</label>
-            <input
-              class="w3-input w3-border"
-              type="text"
-              name="Message"
-              required
-            />
-          </div>
-          <button
-            type="submit"
-            class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom"
-          >
-            Send Message
-          </button>
-        </form>
-      </div>
-      <div class="w3-xlarge w3-padding-32">
-        <i class="fa fa-facebook-official w3-hover-opacity"></i>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
-     </div>
-
+      
+    
+    <footer class="w3-xlarge w3-padding-32" style = "text-align: center;">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </footer>
 
 
 
@@ -288,10 +273,10 @@ aria-hidden="true">
     
     
     
-    </footer>
+    <script href="./script.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script href="./script.js"></script>
+    
   </body>
 </html>
